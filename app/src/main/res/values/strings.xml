@@ -9,4 +9,6 @@
     <string name="failed_to_create_classifier">Failed to create classifier</string>
     <string name="please_write_a_digit">Please write a digit in the box above.</string>
     <string name="timecost_value">%1$d ms</string>
+    <string name="imageTitle">Images</string>
+    <string name="cancel">Cancel</string>
 </resources>

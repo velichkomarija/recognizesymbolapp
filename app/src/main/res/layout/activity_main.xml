@@ -5,13 +5,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center"
-    android:gravity="center"
     tools:context=".ui.MainActivity">
 
     <LinearLayout
-        android:layout_marginTop="-108dp"
         android:layout_width="match_parent"
         android:orientation="vertical"
+        android:layout_marginTop="48dp"
         android:layout_height="wrap_content">
 
         <TextView
@@ -26,6 +25,14 @@
             android:layout_height="wrap_content"
             android:text="@string/emptyResult"
             style="@style/Values" />
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_image"
+            android:contentDescription="@string/imageTitle" />
 
     </LinearLayout>
 
