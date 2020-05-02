@@ -1,6 +1,5 @@
 *.iml
 .gradle
-/local.properties
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
@@ -19,9 +18,5 @@
 .idea/misc.xml
 .idea/runConfigurations.xml
 .idea/vcs.xml
-app/proguard-rules.pro
-gradle/wrapper/gradle-wrapper.jar
-gradle/wrapper/gradle-wrapper.properties
 gradlew
 gradlew.bat
-settings.gradle
