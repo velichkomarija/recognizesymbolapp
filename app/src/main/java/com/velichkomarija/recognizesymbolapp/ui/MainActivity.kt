@@ -1,6 +1,7 @@
 package com.velichkomarija.recognizesymbolapp.ui
 
 import android.annotation.SuppressLint
+import android.content.pm.ActivityInfo
 import android.graphics.Bitmap
 import android.os.Bundle
 import android.util.Log
@@ -73,9 +74,11 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("SourceLockedOrientationActivity")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
         btn_detect.setOnClickListener(onDetectClick)
         btn_clear.setOnClickListener(onCancelClick)
     }

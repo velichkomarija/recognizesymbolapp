@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Распознавание символов</string>
+    <string name="prediction">Предсказание</string>
+    <string name="probability">Точность</string>
+    <string name="timecost">Время</string>
+    <string name="detect">Распознать</string>
+    <string name="clear">Очистить</string>
+    <string name="failed_to_create_classifier">Ошибка создания класификатора</string>
+    <string name="please_write_a_digit">Пожалуйста, начертите символ</string>
+    <string name="timecost_value">%1$d мс</string>
+    <string name="imageTitle">Символы</string>
+    <string name="cancel">Отмена</string>
+</resources>

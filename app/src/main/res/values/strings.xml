@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">RecognizeSymbolApp</string>
     <string name="prediction">Prediction</string>
-    <string name="emptyResult">--</string>
+    <string name="emptyResult" translatable="false">--</string>
     <string name="probability">Probability</string>
     <string name="timecost">Timecost</string>
     <string name="detect">Detect</string>
